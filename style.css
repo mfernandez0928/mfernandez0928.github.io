@@ -24,10 +24,6 @@ header {
   background-color: #000000;
 }
 
-.navbar input#menu-toggler {
-  display: none;
-}
-
 .navbar {
   display: flex;
   padding: 0 10px;
@@ -54,7 +50,7 @@ header {
   color: white;
 }
 
-header a, footer a {
+header a {
   margin-left: 40px;
   text-decoration: none;
   color: #fff;
@@ -63,7 +59,7 @@ header a, footer a {
   display: inline-block;
 }
 
-header a:hover, footer a:hover {
+header a:hover {
   color: #51ff00;
   transition: 0.7s;
 }
@@ -311,7 +307,7 @@ footer a {
   padding: 0;
 }
 
-@media screen and (max-width: 860px) {
+@media screen and (max-width: 480px) {
   .navbar .all-links {
     position: fixed;
     left: -100%;
@@ -321,10 +317,6 @@ footer a {
     top: 75px;
     background: #333;
     transition: left 0.3s ease;
-  }
-
-  .navbar #menu-toggler:checked~.all-links {
-    left: 0;
   }
 
   .navbar .all-links li {
