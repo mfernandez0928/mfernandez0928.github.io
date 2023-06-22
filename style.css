@@ -51,7 +51,7 @@ header {
 }
 
 header a {
-  margin-left: 40px;
+  margin-left: 50px;
   text-decoration: none;
   color: #fff;
   height: 100%;
@@ -94,7 +94,7 @@ header a:hover {
 }
 
 .homepage .content h1 {
-  font-size: 60px;
+  font-size: 80px;
   font-weight: 700;
   margin-bottom: 10px;
 }
@@ -111,7 +111,7 @@ header a:hover {
   color: #000;
   display: block;
   text-transform: uppercase;
-  font-size: 18px;
+  font-size: 20px;
   margin: 0 10px;
   padding: 10px 30px;
   border-radius: 5px;
@@ -303,9 +303,6 @@ footer p {
   color: #fff;
 }
 
-footer a {
-  padding: 0;
-}
 
 @media screen and (max-width: 480px) {
   .navbar .all-links {
@@ -359,9 +356,6 @@ footer a {
     margin-top: 40px;
   }
 
-  footer a {
-    height: 0;
-  }
 }
 
 @media screen and (max-width: 480px) {
