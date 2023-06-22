@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  background: #f2f2f2;
+  background-color:  #f2f2f2;
 }
 
 header {
@@ -22,6 +22,10 @@ header {
   display: flex;
   justify-content: center;
   background-color: #000000;
+}
+
+.navbar input#menu-toggler {
+  display: none;
 }
 
 .navbar {
