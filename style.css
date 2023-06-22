@@ -279,7 +279,8 @@ section .cards .card {
 }
 
 .contact form button:hover {
-  background: #525252;
+  background: #22ff00;
+  color: #000000;
 }
 
 footer {
@@ -298,7 +299,7 @@ footer div {
   justify-content: space-between;
 }
 
-footer span {
+footer p {
   color: #fff;
 }
 
