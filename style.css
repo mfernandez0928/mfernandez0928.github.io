@@ -364,7 +364,7 @@ footer a {
   }
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 480px) {
   section .cards .card {
     width: 100%;
     margin-bottom: 30px;
