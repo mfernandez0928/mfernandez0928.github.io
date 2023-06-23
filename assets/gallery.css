@@ -17,7 +17,6 @@ header {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 5;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -26,7 +25,7 @@ header {
 
 .navbar {
   display: flex;
-  padding: 0 10px;
+  padding: 0 5px;
   max-width: 1200px;
   width: 100%;
   align-items: center;
@@ -51,7 +50,7 @@ header {
 }
 
 header a {
-  margin-left: 50px;
+  margin-left: 40px;
   text-decoration: none;
   color: #fff;
   height: 100%;
@@ -64,65 +63,64 @@ header a:hover {
   transition: 0.7s;
 }
 
-  section {
-    margin-top: auto;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding: 80px 0 0;
-  }
+section {
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 80px 0 0;
+}
 
 .pb-video-container {
-    padding-top: 10px;
-    background: #bdc3c7;
-    font-family: Lato;
+  padding-top: 10px;
+  background: #bdc3c7;
+  font-family: Lato;
 }
 
 .pb-video {
-    border: none;
-    padding: 5px;
+  border: none;
+  padding: 5px;
 }
 
 .pb-video:hover {
-    background: #00d02d;
+  background: #00d02d;
 }
 
 .pb-video-frame {
-    transition: width 3s, height 5s;
+  transition: width 3s, height 5s;
 }
 
 .pb-row {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 footer {
-    height: 60px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    background: #000;
-    padding: 20px 0;
-    position: fixed;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: #000;
+  padding: 20px 0;
+  position: fixed;
 }
-    
+  
 footer p {
-    color: #fff;
+  color: #fff;
 }
 
 @media screen and (max-width: 480px) {
-    .navbar .all-links {
-      position: fixed;
-      left: -100%;
-      width: 300px;
-      display: block;
-      height: 100vh;
-      top: 75px;
-      background: #333;
-      transition: left 0.3s ease;
-    }
-  
-    .navbar .all-links li {
-      font-size: 18px;
-    }
+  .navbar .all-links {
+    position: fixed;
+    left: -100%;
+    width: 300px;
+    display: block;
+    height: 100vh;
+    top: 75px;
+    background: #333;
+    transition: left 0.3s ease;
+  }
+
+  .navbar .all-links li {
+    font-size: 18px;
+  }
 }
-  
